@@ -1,0 +1,79 @@
+  .dataResult {
+    position: absolute;
+    align-items: center;
+    margin-left: -100px;
+    min-height: 40px ;
+    max-height:300px;
+    width:48.2%;
+    background-color: #c1c4dd;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow-y: auto;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+  }
+  
+  .dataResult::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .dataResult .dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+
+  }
+  
+  .dataItem p {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .dataItem {
+    text-decoration: none;
+  }
+  
+ .dataItem:hover {
+    background-color: rgba(211, 211, 211, 0.863)
+  }
+  
+  #clearBtn {
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .dataResult {
+      width:46%;
+    }
+  }
+  @media screen and (max-width: 860px) {
+    .dataResult {
+      width:40%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .dataResult {
+      width:37%;
+    }
+  }
+
+
+  @media screen and (max-width: 740px) {
+    .dataResult {
+      width:35%;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .dataResult {
+      width:28.1%;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .dataResult {
+      width:31.1%;
+    }
+  }

@@ -1,0 +1,353 @@
+.app.dark {
+  background-color: #111;
+  color: rgb(156, 156, 156);
+
+  .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+
+  .table {
+    background-color: #111;
+
+    .tableCell {
+      color: gray;
+    }
+  }
+
+  .navbar_admin {
+    color: #999;
+    border-color: #333;
+    background-color: #111;
+
+    .search {
+      border-color: gray;
+    }
+  }
+
+  .sidebar {
+    background-color: #111;
+    border-color: #333;
+
+    .top {
+      .logo {
+        color: #999;
+      }
+    }
+
+    hr {
+      border-color: #333;
+    }
+
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+
+        &.active {
+          background-color: #333;
+        }
+
+        .icon {
+          color: #999;
+        }
+      }
+    }
+  }
+
+  .home {
+    display: flex;
+    background-color: #111;
+
+    .homeContainer {
+      background-color: #111;
+
+    }
+  }
+
+  .list {
+    background-color: #111;
+
+    .listContainer {
+      flex: 6;
+      background-color: #111;
+    }
+  }
+
+  .datatable {
+    background-color: #111;
+
+    .datatableTitle {
+      background-color: #111;
+    }
+
+    .datagrid {
+      color: gray;
+      border: none;
+
+      .viewButton,
+      .deleteButton,
+      .cellWithStatus {
+        color: gray;
+        border: none;
+      }
+    }
+  }
+
+  input {
+    background-color: transparent;
+  }
+
+  .single {
+    background-color: #111;
+  }
+
+  .new {
+    background-color: #111;
+  }
+
+  .form-control {
+    border-color: white;
+    background-color: transparent;
+    color: white
+  }
+
+  .Search-admin {
+    color: white
+  }
+
+  .dark-input {
+    border-color: white;
+
+  }
+
+  .backgroundColor-navbar {
+    background-color: #111;
+  }
+
+  .item {
+    color: #888;
+
+    &:hover {
+      background-color: #333;
+      color: #888
+    }
+
+    &.active {
+      background-color: #333;
+      color: #888
+    }
+  }
+
+  .sidebar-background {
+    background-color: #111;
+  }
+  .search {
+    color: #888
+  }
+
+  .listItem {
+    color: #888;
+
+    &:hover {
+      color: #111
+    }
+
+    &.active {
+      color: #111
+    }
+  }
+
+  .backgroundColor {
+    background-color: #111;
+
+    .backgroundColor-question{
+      background-color: rgb(29, 28, 28);
+      color: rgb(221, 221, 221)
+    }
+
+    .add-question-container {
+      background-color: rgb(29, 28, 28);
+    }
+
+    .head-title {
+      color: rgb(146, 146, 146)
+    }
+
+    .small {
+      color: rgba(255, 255, 255, 0.397);
+    }
+  }
+
+  .buttonGroup {
+    background-color: rgb(128, 126, 126);
+
+    &:hover {
+      color: rgb(34, 34, 85)
+    }
+
+    &.active {
+      color: rgb(34, 34, 85)
+    }
+  }
+
+  .card-color {
+    background-color: rgba(78, 72, 100, 0.212);
+    color:rgb(168, 166, 166);
+  }
+
+  .inputMessage{
+    background-color: #494949;
+    border: 1px solid #8a8a8a ;
+    color:black
+  }
+
+  .ql-editor {
+    color: rgb(197, 197, 197);
+  }
+  .chats{
+    background-color: rgb(31, 30, 30);
+  }
+  .backgroundColor-chats{
+    background-color: #111;
+  }
+
+  .main-question{
+    color:rgb(196, 191, 191);
+  }
+
+  .info{
+    color: rgba(184, 173, 173, 0.4);
+    p{
+      color: rgba(184, 173, 173, 0.644);
+      margin: 0 10px;
+      span {
+        color: rgba(209, 209, 209, 0.781);
+        font-weight: 600;
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .main-top>h2 {
+    color: rgba(209, 209, 209, 0.8);
+  }
+
+  .main-desc {
+    color: rgba(209, 209, 209, 0.8);
+
+  }
+
+  .question-title{
+    color:rgb(130, 147, 196)
+  }
+  .login-h2{
+    color:rgb(103, 121, 177)
+  }
+
+.main-tabs-button{
+   background-color: #899ea3f3;
+}
+
+
+
+  .info-post{
+    color: rgba(184, 173, 173, 0.4);
+    p{
+      color: rgba(184, 173, 173, 0.4);
+      span {
+        color: rgba(184, 173, 173, 0.4);
+      }
+    }
+  }
+
+
+  .select-questions{
+    background-color: rgb(8, 4, 22);
+  }
+  
+  .author-infos{
+    color:rgb(185, 185, 185)
+  }
+
+  .all-questions-container {
+    border: 3px solid #dbe3e9;
+    color:rgb(168, 166, 166);
+    background-color: rgba(14, 12, 20, 0.527);
+  }
+  .all-answers-container {
+    border: 3px solid #dbe3e9;
+    color:rgb(168, 166, 166);
+    background-color: rgba(14, 12, 20, 0.527);
+  }
+
+  .card-content>pre {
+    background-color: rgb(48, 46, 46);
+  }
+
+  .textarea {
+    background: #183b5e85;
+    color:white
+  }
+  .panel_container {
+    background: #051a2b;
+    .panel {
+      background: #051a2b;
+    }
+  }
+  .dark{
+    color:rgba(255, 255, 255, 0.555)
+  }
+  .white{
+    color:white;
+  }  
+  .background-reset{
+    background:#111
+  }
+  
+  .author-answer{
+    background-color: rgba(48, 48, 59, 0.87);
+  }
+
+  .answer-container{
+    color:rgb(168, 166, 166);
+    background-color: rgba(14, 12, 20, 0.527);
+  }
+  .comment{
+    color:rgb(168, 166, 166);
+    background-color: rgba(14, 12, 20, 0.527);
+  }
+
+  .artCard{
+    background-color: rgb(31, 30, 30);
+  }
+
+  .communityCard{
+    background-color: rgb(31, 30, 30);
+  }
+  .PostsCard{
+    background-color: rgb(31, 30, 30);
+  }
+  .widget-profile {
+    border-bottom: 1px solid rgba(226, 224, 224, 0.541);}
+}
+.UserInfo{
+  border-bottom: 1px solid rgba(226, 224, 224, 0.541);
+}
+
+  .categoryBanner{
+    background-color: rgb(83, 83, 83);
+  }
+  .nav-category:hover:after {
+    width: 100%;
+    background: #2d6872;
+    color:#2d6872
+  }
+  
+  .nav-category .active {
+    color: #2d6872;
+    border-bottom: 1px solid #2d6872;
+  }
+  .nav-links-categories {
+    color: rgba(134, 134, 134, 0.548);
+  }

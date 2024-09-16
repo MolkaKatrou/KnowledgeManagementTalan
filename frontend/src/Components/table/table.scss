@@ -1,0 +1,23 @@
+.table {
+  background-color: rgba(186, 191, 196, 0.993);
+  .cellWrapper {
+    display: flex;
+    align-items: center;
+    
+
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      margin-right: 10px;
+      object-fit: cover;
+    }
+  }
+
+  .status {
+    padding: 5px;
+    border-radius: 5px;
+
+
+  }
+}

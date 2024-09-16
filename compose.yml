@@ -1,0 +1,30 @@
+version: "3"
+services:
+  api:
+    image: node:16
+    container_name: api
+    working_dir: /app
+    command: npm run server
+    ports:
+      - "4000:4000"
+    volumes:
+      - "./backend/:/app"
+  web:
+    image: node:16
+    container_name: web
+    working_dir: /src
+    command: sh -c "npm rebuild node-sass && npm start"
+    ports:
+      - "3000:3000"
+    volumes:
+      - "./frontend/:/src"
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      ATLAS_URI: 'ATLAS_URI'
+    volumes:
+      - db-data:/data/db
+volumes:
+  db-data: {}
